@@ -9,16 +9,40 @@ const Registrarse = () => {
       <form>
         <h1><strong>Registro</strong></h1>
         <div className="input-box">
-          <input type="text" placeholder='Nombre de usuario' required />
+          <input type="text" name='name' placeholder='name' required />
           <FaUser className='icon' />
         </div>
         <div className="input-box">
-          <input type="text" placeholder='correo electronico' required />
+          <input type="text" name='paternallastname' placeholder='paternallastname' required />
+          <FaUser className='icon' />
+        </div>
+        <div className="input-box">
+          <input type="text" name='maternallastname' placeholder='maternallastname' required />
+          <FaUser className='icon' />
+        </div>
+        <div className="input-box">
+          <input type="password" name='password' placeholder='password' required />
+          <FaLock className='icon' />
+        </div>
+        <div className="input-box">
+          <input type="text" name='email' placeholder='email' required />
           <MdEmail className='icon' />
         </div>
         <div className="input-box">
-          <input type="password" placeholder='Contraseña' required />
-          <FaLock className='icon' />
+          <input type="text" name='cellphone' placeholder='cellphone' required />
+          <FaUser className='icon' />
+        </div>
+        <div className="input-box">
+          <input type="number" name='typeDocument' placeholder='typeDocument' required />
+          <FaUser className='icon' />
+        </div>
+        <div className="input-box">
+          <input type="text" name='nroDocument' placeholder='nroDocument' required />
+          <FaUser className='icon' />
+        </div>
+        <div className="input-box">
+          <input type="text" name='genderId' placeholder='genderId' required />
+          <FaUser className='icon' />
         </div>
 
         <button type="submit">Registrarse</button>
