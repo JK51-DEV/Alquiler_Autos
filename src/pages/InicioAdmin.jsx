@@ -57,6 +57,8 @@ const InicioAdmin = () => {
       ></DataTable>
       <br></br>
       <button><a href="/EmpleadosAdmin">Empleados</a></button>
+      <br></br><br></br>
+      <button><a href="/home">Cerrar Sesión</a></button>
       </div>
     </div>
   )
