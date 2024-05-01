@@ -28,8 +28,15 @@ const RegistroCatalogo = () => {
         <br></br>
         <div className='Contcatalogo'>
           <div className='ingresocatalogo'>
-          <input className='imputcatalogo' type="number" name='Año' required />
-          <div className='labelcatalogo'>Año</div>
+          <input className='imputcatalogo' type="number" name='AñoModelo' required />
+          <div className='labelcatalogo'>Año de Modelo</div>
+        </div>
+        </div>
+        <br></br>
+        <div className='Contcatalogo'>
+          <div className='ingresocatalogo'>
+          <input className='imputcatalogo' type="number" name='AñoFabricación' required />
+          <div className='labelcatalogo'>Año de Fabricación</div>
         </div>
         </div>
         <br></br>
@@ -74,6 +81,46 @@ const RegistroCatalogo = () => {
         </div>
         <br></br>
         </div>
+
+        <div className='fromcatalogo'>
+        <div className='Contcatalogo'>
+          <div className='ingresocatalogo'>
+          <input className='filecatalogo' type="file" name='imagen' required />
+          <div className='labelfilcatalogo'>Ingrese imagen</div>
+        </div>
+        </div>
+        <br></br>
+        <div className='Contcatalogo'>
+          <div className='ingresocatalogo'>
+          <input className='filecatalogo' type="file" name='imagen' required />
+          <div className='labelfilcatalogo'>Ingrese imagen</div>
+        </div>
+        </div>
+        <br></br>
+        <div className='Contcatalogo'>
+          <div className='ingresocatalogo'>
+          <input className='filecatalogo' type="file" name='imagen' required />
+          <div className='labelfilcatalogo'>Ingrese imagen</div>
+        </div>
+        </div>
+        <br></br>
+
+        <div className='Contcatalogo'>
+          <div className='ingresocatalogo'>
+          <input className='filecatalogo' type="file" name='imagen' required />
+          <div className='labelfilcatalogo'>Ingrese imagen</div>
+        </div>
+        </div>
+        <br></br>
+        <div className='Contcatalogo'>
+          <div className='ingresocatalogo'>
+          <input className='filecatalogo' type="file" name='imagen' required />
+          <div className='labelfilcatalogo'>Ingrese imagen</div>
+        </div>
+        </div>
+        <br></br> 
+        </div>
+        <br></br>
         <button type="submit">Registrar</button>
 
         <div className="register-link">
