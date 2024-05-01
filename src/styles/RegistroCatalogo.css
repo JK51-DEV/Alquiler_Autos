@@ -1,0 +1,233 @@
+
+.bodyscatalogo {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../assets/all-images/blue.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.wrappercatalogo {
+   /* width: 420px;*/
+   width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrappercatalogo h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrappercatalogo .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 32%;
+    transform: translate(-50%);
+    font-size: 16px;
+}
+
+.wrappercatalogo .remenber-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remenber-forgot label input {
+    accent-color: #fff;
+    margin: 4px;
+}
+
+.remenber-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remenber-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrappercatalogo button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.wrappercatalogo .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
+
+/*cambios*/
+
+.bodycatalog{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.Contcatalogo{
+    width: 100%;
+    margin-right: 10px;
+}
+.ingresocatalogo{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+.imputcatalogo{
+    position: absolute;
+    width: 100%;
+    outline: none;
+    /*font-size: 2.2em;*/
+    font-size: 16px;
+    padding: 0 30px;
+    /*line-height: 40px;*/
+    border-radius: 10px;
+    /*border: 2px solid #26ffff;*/
+    border: 2px solid #ffffff;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+.labelcatalogo{
+    position: absolute;
+    font-size: 16px;
+    /*color: #dfff3c;*/
+    color: #ffffff;
+    padding: 0 25px;
+    padding-top: -100px;
+    margin: 0 20px;
+    /*background-color: #1c2841; #000052; #000057;*/
+    background-color: #010152;
+    transition: 0.2s ease;
+}
+.imputcatalogo:focus,
+.imputcatalogo:valid{
+/*color: #66ff00;*/
+color: #26ffff;
+border: 4px solid #26ffff;
+}
+.imputcatalogo:focus + .labelcatalogo,
+.imputcatalogo:valid + .labelcatalogo{
+color: #26ffff;
+height: 30px;
+line-height: 30px;
+padding: 0 12px;
+transform: translate(-15px,-16px) scale(0.88);
+z-index: 1111;
+}
+
+.fromcatalogo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+.selectcatalogo{ 
+    position: absolute;
+    width: 100%;
+    outline: none;
+    /*font-size: 2.2em;*/
+    font-size: 16px;
+    padding: 0 30px;
+    /*line-height: 40px;*/
+    border-radius: 10px;
+    /*border: 2px solid #26ffff;*/
+    border: 2px solid #ffffff;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    line-height: 80px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 7px;
+}
+
+.selectcatalogo option{
+    background-color: #333;
+}
+
+.selectcatalogo:focus,
+.selectcatalogo:valid{
+/*color: #66ff00;*/
+color: #26ffff;
+border: 4px solid #26ffff;
+}
+
+.selectcatalogo:focus + .labelcatalogo,
+.selectcatalogo:valid + .labelcatalogo{
+color: #26ffff;
+height: 30px;
+line-height: 30px;
+padding: 0 12px;
+transform: translate(-15px,-16px) scale(0.88);
+z-index: 1111;
+}
